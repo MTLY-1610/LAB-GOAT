@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 200px;
+    height: 300px;
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
@@ -32,11 +32,21 @@ body {
 .write {
     text-align: center;
     display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 button {
     display: flex;
     background-color: springgreen;
+    font-size: 12pt;
+
+}
+#text{
+    font-size: 16pt;
+    margin-top: 2rem;
+    text-align: center;
+
 }

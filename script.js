@@ -7,7 +7,7 @@ function startGame() {
   showTextNode();
 }
 
-let currentTextNodeIndex = 0;
+let currentTextNodeIndex = 0
 
 function showTextNode() {
 // //     if(textNodes[2]){

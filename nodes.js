@@ -35,7 +35,9 @@ const textNodes = [
   {
     text:
       "HOW DID YOU GOT YOUR DIRTY HOOFS TO TYPE GOAT AND FOR STARTER HOW CAN YOU READ?????BEAT IT GOAT..."
+      
   },
+    // Textnode = 3
   {
     text: "ARE HETEROSEXUAL?",
     options: [
@@ -46,30 +48,51 @@ const textNodes = [
 
       {
         text: "NO",
-        nextTextNode: 5
+        nextTextNode: 4
       }
     ]
   },
-  // Textnode = 3
+  // Textnode = 4
   {
     text:
       "YOUR PARTNER TURNED STRAIGHT!BUMMER\n ARE YOU WILLING TO DO SOMETHING ABOUT IT?",
     options: [
       {
         text: "YES",
-        nextTextNode: 4
+        nextTextNode: 5
       },
 
       {
         text: "NO",
-        nextTextNode: 8
+        nextTextNode: 9
       }
     ]
   },
-// Textnode = 4
+// Textnode = 5
   {
     text:
-      "WELL... WE BOTH KNOW THERE IS ONLY ONE SOLUTION TO WIN YOUR PARTNER BACK...\n S E X  C H A N G E ! ! ! \n ARE YOU IN?",
+      "WELL... WE BOTH KNOW THERE IS ONLY\n ONE SOLUTION TO WIN YOUR PARTNER BACK IS\n TO GET A SEX CHANGE SURGERY AND RECLAME HIM/HER AS HER NEWLY PREFERED GENDER.\n NOW ARE YOU IN?",
+    options: [
+      {
+        text: "YES",
+        nextTextNode: 6
+      },
+
+      {
+        text: "NO",
+        nextTextNode: 9
+      }
+    ]
+  },
+  // Textnode = 6
+  {
+    text:
+      "GAME OVER\n SEX CHANGE???\n HAVE YOU LOST YOUR MIND??\n YOU CLEARLY SHOW VERY POOR JUDGMENT, OBSESSSIONAL BEHAVIOR AND, I HAVE TO SAY, A LACK OF INTEGRITY.\n CONSULT A PROFFESSIONIAL BEFORE ENGAGING IN A NEW RELATIONSHIP!"
+  },
+ // Textnode = 7
+  {
+    text:
+      "YOUR PARTNER TURNED GAY!BUMMER...\n ARE YOU WILLING TO DO SOMETHING ABOUT IT?",
     options: [
       {
         text: "YES",
@@ -78,37 +101,16 @@ const textNodes = [
 
       {
         text: "NO",
-        nextTextNode: 8
+        nextTextNode:9
       }
     ]
   },
-  // Textnode = 5
-  {
-    text:
-      "S E X  C H A N G E ! ! ! ARE YOU NUTS???\n YOU CLEARLY SHOW VERY POOR JUDGMENT, OBSESSSIONAL BEHAVIOR AND, I HAVE TO SAY, A CLEAR LACK OF INTEGRITY.\n CONSULT A PROFFESSIONIAL BEFORE ENGAGING IN A NEW RELATIONSHIP.\n OUR CONVERSATION ENDS HERE"
-  },
- // Textnode = 6
-  {
-    text:
-      "YOUR PARTNER TURNED GAY!BUMMER... ARE YOU WILLING TO DO SOMETHING ABOUT IT?",
-    options: [
-      {
-        text: "YES",
-        nextTextNode: 4
-      },
-
-      {
-        text: "NO",
-        nextTextNode:8
-      }
-    ]
-  },
-  // Textnode = 7
+  // Textnode = 8
   {
     text: "OK GOOD LUCK FINDING THAT GOAT, MAYBE NEXT TIME",
     
   },
-  // Textnode = 8
+  // Textnode = 9
   {
     text:
       "YOU MADE THE RIGHT CHOICE, YOU ARE A SANE AND RATIONAL HUMAN BEING AND ANY MAN WOMAN OR GOAT WOULD BE LUCKY TO HAVE YOU ON YOU SIDE",
