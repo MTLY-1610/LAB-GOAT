@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  }
+  .write {
+      display: flex;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+  button{
+    display: flex;
+    background-color: springgreen;
+    
+  }
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
