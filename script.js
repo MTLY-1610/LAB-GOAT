@@ -10,9 +10,18 @@ function startGame() {
 let currentTextNodeIndex = 0;
 
 function showTextNode() {
+// //     if(textNodes[2]){
+// // document.querySelector('write').style.display = 'none'
+// // document.querySelector('myButton').style.display = 'none'}
+
+// //   if (!currentTextNodeIndex || currentTextNodeIndex === 2) {
+// //       const container = document.querySelector('.container')
+// //       container.removeChild(container.children[2])
+// //       container.removeChild(container.children[3])
+//   }
   const textNode = textNodes[currentTextNodeIndex];
-  textElement.innerText = textNode.text;
-}
+  textElement.innerText = textNode.text;}
+
 
 function submitAnswer() {
   const answer = inputElement.value;
@@ -21,12 +30,10 @@ function submitAnswer() {
   // check the answer
   const textNode = textNodes[currentTextNodeIndex];
   if (answer.toUpperCase() === textNode.options[0].text) {
-    console.log("HUMAN");
     currentTextNodeIndex = textNode.options[0].nextTextNode;
     showTextNode();
   }
   if (answer.toUpperCase() === textNode.options[1].text) {
-    console.log("GOAT");
     currentTextNodeIndex = textNode.options[1].nextTextNode;
     showTextNode();
   }
@@ -46,3 +53,4 @@ function selectOption(option) {
 }
 
 startGame();
+
