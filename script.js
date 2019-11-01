@@ -1,51 +1,48 @@
-const textElement = document.getElementById('text')
-const inputElement = document.querySelector('input')
+const textElement = document.getElementById("text");
+const inputElement = document.querySelector("input");
 
-let state = {}
+let state = {};
 
 function startGame() {
-    showTextNode()
+  showTextNode();
 }
 
-let currentTextNodeIndex =0
-
+let currentTextNodeIndex = 0;
 
 function showTextNode() {
-    const textNode = textNodes[currentTextNodeIndex]
-    textElement.innerText = textNode.text
+  const textNode = textNodes[currentTextNodeIndex];
+  textElement.innerText = textNode.text;
 }
 
 function submitAnswer() {
-    const answer = inputElement.value
-    inputElement.value = ""
-    
+  const answer = inputElement.value;
+  inputElement.value = "";
 
-    // check the answer
-    const textNode = textNodes[currentTextNodeIndex]
-    if (answer.toUpperCase() === textNode.options[0].text) {
-        console.log("HUUUUUUMAAAAN")
-        currentTextNodeIndex = textNode.options[0].nextTextNode
-        showTextNode()
-        
-    }
-   
-    
-
-    
+  // check the answer
+  const textNode = textNodes[currentTextNodeIndex];
+  if (answer.toUpperCase() === textNode.options[0].text) {
+    console.log("HUMAN");
+    currentTextNodeIndex = textNode.options[0].nextTextNode;
+    showTextNode();
+  }
+  if (answer.toUpperCase() === textNode.options[1].text) {
+    console.log("GOAT");
+    currentTextNodeIndex = textNode.options[1].nextTextNode;
+    showTextNode();
+  }
 }
 
 function showOption(option) {
-    return option.requiredState == null || option.requiredState(state)
+  return option.requiredState == null || option.requiredState(state);
 }
 
 function selectOption(option) {
-    const nextTextNodeId = option.nextText
-    if (nextTextNodeId <= 0) {
-        return startGame()
-    }
-    state = Object.assign(state, option.setState)
-    showTextNode(nextTextNodeId)
+  const nextTextNodeId = option.nextText;
+  if (nextTextNodeId <= 0) {
+    return startGame();
+  }
+  state = Object.assign(state, option.setState);
+  showTextNode(nextTextNodeId);
 }
 
 startGame();
-
