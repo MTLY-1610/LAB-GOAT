@@ -12,7 +12,12 @@ const textNodes = [
       {
         text: "GOAT",
         nextTextNode: 2
+      },
+      {
+        text: "NEITHER",
+        nextTextNode: 8
       }
+      
     ]
   },
   // Textnode = 1
@@ -87,7 +92,7 @@ const textNodes = [
   // Textnode = 6
   {
     text:
-      "GAME OVER\n SEX CHANGE???\n HAVE YOU LOST YOUR MIND??\n YOU CLEARLY SHOW VERY POOR JUDGMENT, OBSESSSIONAL BEHAVIOR "
+      "GAME OVER\n\n SEX CHANGE?!\n HAVE YOU LOST YOUR MIND??\n LEARN TO LET GO  "
   },
  // Textnode = 7
   {
@@ -113,7 +118,7 @@ const textNodes = [
   // Textnode = 9
   {
     text:
-      "YOU MADE THE RIGHT CHOICE, YOU ARE A SANE AND RATIONAL HUMAN BEING AND ANY MAN WOMAN OR GOAT WOULD BE LUCKY TO HAVE YOU ON YOU SIDE",
+      "YOU MADE THE RIGHT CHOICE, YOU ARE A SANE AND RATIONAL HUMAN BEING AND ANY MAN, WOMAN OR GOAT WOULD BE LUCKY TO HAVE YOU ON YOU SIDE",
     
   }
 ];
