@@ -23,7 +23,7 @@ const textNodes = [
   // Textnode = 1
   {
     text:
-      "YOU MAY PLAY THE GAME IF YOU WANT TO \n I have time to waste so YES \n NO i just lost a goat and need to find it, next time maybe",
+      "You may play the game if you have time to waste type YES otherwise type NO ",
     options: [
       {
         text: "YES",
