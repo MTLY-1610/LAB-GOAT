@@ -13,7 +13,11 @@ function showTextNode() {
 // //     if(textNodes[2]){
 // // document.querySelector('write').style.display = 'none'
 // // document.querySelector('myButton').style.display = 'none'}
-
+if (currentTextNodeIndex === 2||currentTextNodeIndex === 6||currentTextNodeIndex === 8||currentTextNodeIndex === 9) {
+        const container = document.querySelector('.container')
+        container.removeChild(container.children[2])
+        container.removeChild(container.children[1])
+    }
 // //   if (!currentTextNodeIndex || currentTextNodeIndex === 2) {
 // //       const container = document.querySelector('.container')
 // //       container.removeChild(container.children[2])

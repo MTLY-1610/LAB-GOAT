@@ -18,7 +18,7 @@ const textNodes = [
   // Textnode = 1
   {
     text:
-      "YOU MAY PLAY THE GAME IF YOU WANT TO \n I have time to waste so yes \n Naa i just lost a goat and need to find it, next time maybe",
+      "YOU MAY PLAY THE GAME IF YOU WANT TO \n I have time to waste so YES \n NO i just lost a goat and need to find it, next time maybe",
     options: [
       {
         text: "YES",
@@ -87,7 +87,7 @@ const textNodes = [
   // Textnode = 6
   {
     text:
-      "GAME OVER\n SEX CHANGE???\n HAVE YOU LOST YOUR MIND??\n YOU CLEARLY SHOW VERY POOR JUDGMENT, OBSESSSIONAL BEHAVIOR AND, I HAVE TO SAY, A LACK OF INTEGRITY.\n CONSULT A PROFFESSIONIAL BEFORE ENGAGING IN A NEW RELATIONSHIP!"
+      "GAME OVER\n SEX CHANGE???\n HAVE YOU LOST YOUR MIND??\n YOU CLEARLY SHOW VERY POOR JUDGMENT, OBSESSSIONAL BEHAVIOR "
   },
  // Textnode = 7
   {
