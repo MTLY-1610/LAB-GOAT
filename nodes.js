@@ -44,7 +44,7 @@ const textNodes = [
   },
     // Textnode = 3
   {
-    text: "ARE HETEROSEXUAL?",
+    text: "ARE YOU HETEROSEXUAL?",
     options: [
       {
         text: "YES",
@@ -60,7 +60,7 @@ const textNodes = [
   // Textnode = 4
   {
     text:
-    "Your partner turned gay! Bummer... Are you willing to do something about it YES or NO?",
+    "Your partner turned straight! Bummer... Are you willing to do something about it YES or NO?",
     options: [
       {
         text: "YES",
@@ -92,7 +92,7 @@ const textNodes = [
   // Textnode = 6
   {
     text:
-      "GAME OVER\n\n SEX CHANGE?!\n HAVE YOU LOST YOUR MIND??\n You need to learn to let go my friend.Peace out :)"
+      "GAME OVER\n\n SEX CHANGE?!\n HAVE YOU LOST YOUR MIND??\n You need to learn to let go my friend. Peace out :)"
   },
  // Textnode = 7
   {
