@@ -26,7 +26,7 @@ body {
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
+    /* box-shadow: 0 0 10px 2px; */
 }
 
 .write {
@@ -47,6 +47,8 @@ button {
 #text{
     font-size: 16pt;
     margin-top: 2rem;
-    text-align: center;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
 }

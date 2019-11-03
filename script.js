@@ -9,16 +9,18 @@ function startGame() {
 
 let currentTextNodeIndex = 0
 
+
 function showTextNode() {
 
-if (currentTextNodeIndex === 2||currentTextNodeIndex === 6||currentTextNodeIndex === 8||currentTextNodeIndex === 9) {
-        const container = document.querySelector('.container')
-        container.removeChild(container.children[2])
-        container.removeChild(container.children[1])
-    }
+  if (currentTextNodeIndex === 2 || currentTextNodeIndex === 6 || currentTextNodeIndex === 8 || currentTextNodeIndex === 9) {
+    const container = document.querySelector('.container')
+    container.removeChild(container.children[2])
+    container.removeChild(container.children[1])
+  }
 
   const textNode = textNodes[currentTextNodeIndex];
-  textElement.innerText = textNode.text;}
+  textElement.innerText = textNode.text;
+}
 
 
 function submitAnswer() {
@@ -39,21 +41,23 @@ function submitAnswer() {
     currentTextNodeIndex = textNode.options[2].nextTextNode;
     showTextNode();
   }
-}
-
-  
-function showOption(option) {
-  return option.requiredState == null || option.requiredState(state);
-}
-
-function selectOption(option) {
-  const nextTextNodeId = option.nextText;
-  if (nextTextNodeId <= 0) {
-    return startGame();
+    // if (answer.toUpperCase() === (!textNode.options[2].text ||!textNode.options[1].text) || !textNode.options[0].text) {alert("please type correctly!");
+    // }
   }
-  state = Object.assign(state, option.setState);
-  showTextNode(nextTextNodeId);
-}
 
-startGame();
+
+  function showOption(option) {
+    return option.requiredState == null || option.requiredState(state);
+  }
+
+  function selectOption(option) {
+    const nextTextNodeId = option.nextText;
+    if (nextTextNodeId <= 0) {
+      return startGame();
+    }
+    state = Object.assign(state, option.setState);
+    showTextNode(nextTextNodeId);
+  }
+
+  startGame();
 

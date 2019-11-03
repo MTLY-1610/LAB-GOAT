@@ -60,7 +60,7 @@ const textNodes = [
   // Textnode = 4
   {
     text:
-      "YOUR PARTNER TURNED STRAIGHT!BUMMER\n ARE YOU WILLING TO DO SOMETHING ABOUT IT?",
+    "Your partner turned gay! Bummer... Are you willing to do something about it YES or NO?",
     options: [
       {
         text: "YES",
@@ -76,7 +76,7 @@ const textNodes = [
 // Textnode = 5
   {
     text:
-      "WELL... WE BOTH KNOW THERE IS ONLY\n ONE SOLUTION TO WIN YOUR PARTNER BACK IS\n TO GET A SEX CHANGE SURGERY AND RECLAME HIM/HER AS HER NEWLY PREFERED GENDER.\n NOW ARE YOU IN?",
+      "Well... We both know there is only one solution to get your partner back...SEX CHANGE of course!! now are you in YES or NO ?",
     options: [
       {
         text: "YES",
@@ -92,12 +92,12 @@ const textNodes = [
   // Textnode = 6
   {
     text:
-      "GAME OVER\n\n SEX CHANGE?!\n HAVE YOU LOST YOUR MIND??\n LEARN TO LET GO  "
+      "GAME OVER\n\n SEX CHANGE?!\n HAVE YOU LOST YOUR MIND??\n You need to learn to let go my friend.Peace out :)"
   },
  // Textnode = 7
   {
     text:
-      "YOUR PARTNER TURNED GAY!BUMMER...\n ARE YOU WILLING TO DO SOMETHING ABOUT IT?",
+      "Your partner turned gay! Bummer... Are you willing to do something about it YES or NO?",
     options: [
       {
         text: "YES",
@@ -112,13 +112,13 @@ const textNodes = [
   },
   // Textnode = 8
   {
-    text: "OK GOOD LUCK FINDING THAT GOAT, MAYBE NEXT TIME",
+    text: "OK... Time is precious, got it...Have a nice one :) ",
     
   },
   // Textnode = 9
   {
     text:
-      "YOU MADE THE RIGHT CHOICE, YOU ARE A SANE AND RATIONAL HUMAN BEING AND ANY MAN, WOMAN OR GOAT WOULD BE LUCKY TO HAVE YOU ON YOU SIDE",
+      "YOU MADE THE RIGHT CHOICE, YOU ARE A SANE AND RATIONNAL HUMAN BEING AND ANY MAN, WOMAN OR GOAT WOULD BE LUCKY TO HAVE YOU ON  SIDE",
     
   }
 ];
