@@ -38,12 +38,10 @@ function submitAnswer() {
     currentTextNodeIndex = textNode.options[1].nextTextNode;
     showTextNode();
   }
-  if (answer.toUpperCase() === textNode.options[2].text) {
-    currentTextNodeIndex = textNode.options[2].nextTextNode;
-    showTextNode();
-  }
-    // if (answer.toUpperCase() === (!textNode.options[2].text ||!textNode.options[1].text) || !textNode.options[0].text) {alert("please type correctly!");
-    // }
+ 
+  if (answer.toUpperCase() !== textNode.options[0].text || answer.toUpperCase() !== textNode.options[1].text) { 
+      inputElement.placeholder='Type correctly'}
+    
   }
 
 
