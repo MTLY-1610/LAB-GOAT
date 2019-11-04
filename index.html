@@ -14,12 +14,18 @@
 </head>
 
 <body>
-  <audio id="music" loop src="24h.mp3" autoplay> </audio>  
+  <!-- <audio id="music" loop src="24h.mp3" autoplay> </audio>   -->
+ 
   <div class="container">
     <div id="text">Text</div>
     <input class="write" type="text" id="x" placeholder="enter choice">
     <button class="myButton" onclick="submitAnswer()">Submit</button>
   </div>
+  </div>
+  <div style="visibility:hidden">
+    <audio autoplay loop>
+        <source src="./24h.mp3">
+    </audio> 
   </div>
 
   </body>

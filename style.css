@@ -1,54 +1,51 @@
 * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(bcg.jpg);
-    
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(bcg.jpg);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 300px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    /* box-shadow: 0 0 10px 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px 2px; */
 }
 
 .write {
-    text-align: center;
-    display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 button {
-    display: flex;
-    background-color: springgreen;
-    font-size: 12pt;
-
+  display: flex;
+  background-color: springgreen;
+  font-size: 12pt;
 }
-#text{
-    font-size: 16pt;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: justify;
-    text-justify: inter-word;
+#text {
+  font-size: 16pt;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }

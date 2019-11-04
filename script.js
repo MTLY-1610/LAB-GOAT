@@ -44,24 +44,25 @@ function submitAnswer() {
     currentTextNodeIndex = textNode.options[1].nextTextNode;
     showTextNode();
   }
- 
-  if (answer.toUpperCase() !== textNode.options[0].text || answer.toUpperCase() !== textNode.options[1].text) { 
-      inputElement.placeholder='Type correctly'}
-    
+
+  if (answer.toUpperCase() !== textNode.options[0].text || answer.toUpperCase() !== textNode.options[1].text) {
+    inputElement.placeholder = 'Type correctly'
   }
+
+}
 
 /**
  * this function take the answer part and depending of it's value send  the user to the next textNode. "
  */
 
-  function selectOption(option) {
-    const nextTextNodeId = option.nextText;
-    if (nextTextNodeId <= 0) {
-      return startGame();
-    }
-    state = Object.assign(state, option.setState);
-    showTextNode(nextTextNodeId);
+function selectOption(option) {
+  const nextTextNodeId = option.nextText;
+  if (nextTextNodeId <= 0) {
+    return startGame();
   }
+  state = Object.assign(state, option.setState);
+  showTextNode(nextTextNodeId);
+}
 
-  startGame();
+startGame();
 
