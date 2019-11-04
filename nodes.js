@@ -13,10 +13,7 @@ const textNodes = [
         text: "GOAT",
         nextTextNode: 2
       },
-      {
-        text: "NEITHER",
-        nextTextNode: 8
-      }
+      
       
     ]
   },
