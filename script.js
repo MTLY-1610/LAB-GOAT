@@ -1,6 +1,7 @@
 const textElement = document.getElementById("text");
 const inputElement = document.querySelector("input");
 
+
 let state = {};
 
 function startGame() {

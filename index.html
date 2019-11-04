@@ -9,23 +9,12 @@
   <link rel="stylesheet" media="screen and (max-width:49.37em)" href="mobile.css">
   <script defer src="nodes.js"></script>
   <script defer src="script.js"></script>
-  <script>
-    var src = "24h.mp3";
-    function loadaudio(src) {
-      var myaudio = document.getElementById("24h");
-      myaudio.autoplay = true;
-      myaudio.load(src);
-    };
-  </script>
+  
   <title>SANITY CHECK</title>
 </head>
-
-<bodyonload="loadaudio();">
-
-
-  <audio id="24h" autoplay loop>
-    <source src="24h.mp3" type="audio/ogg">
-  </audio>
+ 
+<body>
+    <audio id="music" loop src="24h.mp3" autoplay> </audio>
   <div class="container">
     <div id="text">Text</div>
     <input class="write" type="text" placeholder="enter choice">
